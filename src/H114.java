@@ -4,7 +4,8 @@ import java.applet.*;
 
 public class H114 extends Applet {
 
-    public void init() {}
+    public void init() {
+    }
 
     public void paint(Graphics g) {
         int teller;
@@ -13,7 +14,7 @@ public class H114 extends Applet {
         int x = 120;
         int y = 120;
 
-        for(teller = 0; teller <= 5; teller++) {
+        for (teller = 0; teller <= 5; teller++) {
             hoogte += 10;
             breedte += 10;
             x -= 5;
